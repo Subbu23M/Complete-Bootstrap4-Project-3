@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.height{
+    min-height: 100vh;
+}
+
+.about-image,#filler{
+    background:url(../images/faculty-team/about-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* parallax affect */
+    background-attachment: fixed;
+}
+
+.title-underline{
+    width: 200px;
+    height: 5px;
+}
